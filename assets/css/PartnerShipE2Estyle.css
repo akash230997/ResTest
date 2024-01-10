@@ -1,0 +1,376 @@
+.prestendaLogo {
+  width: 8%;
+}
+.LeftE2E {
+  position: relative;
+  left: -3% !important;
+}
+.pLogo img {
+  position: relative;
+  left: 46%;
+  z-index: 0;
+  border-radius: 50%;
+}
+.Logo_Title {
+  position: relative;
+  z-index: 2;
+}
+.header-layout6 .shape1 {
+  background-color: #0a223e !important;
+}
+.main-menu a {
+  color: #fff;
+}
+.breadcumb-menu li:after {
+  content: "|";
+  position: relative;
+  margin: 0 5px 0 10px;
+}
+
+.E2EImages {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20%;
+  position: absolute;
+  top: 68%;
+}
+.imgPosi {
+  margin: 0% !important;
+}
+.imgPosi3 {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 32%;
+}
+.r5 {
+  position: relative;
+  left: 45%;
+}
+.r1 {
+  position: relative;
+  top: 15px;
+}
+
+.h1B {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.testi-style2 .testi-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+.media-body-heading {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1500px) {
+  .r1 {
+    position: relative;
+    top: 13px;
+  }
+  .r5 {
+    position: relative;
+    left: 50%;
+  }
+  .LeftE2E {
+    position: relative;
+    left: -12% !important;
+  }
+  .prestendaLogo {
+    width: 8%;
+    position: relative;
+    left: 9%;
+  }
+  .header-layout6 {
+    position: absolute;
+    max-width: 90%;
+  }
+  .header-layout6 .shape3,
+  .header-layout6 .shape2,
+  .header-layout6 .shape1 {
+    display: inline-block;
+  }
+  .header-layout6 .shape3:after {
+    content: "";
+    position: absolute;
+    right: calc((var(--shape-gap) + 11px) / -1);
+    top: 0;
+    width: 2px;
+    height: calc(100% + 38px);
+    background-color: var(--white-color);
+    transform: rotate(28deg);
+    transform-origin: top left;
+  }
+  .header-layout6 .shape3::before {
+    right: auto;
+    left: calc((var(--shape-gap) + 11px) / -1);
+    transform: rotate(-28deg);
+    transform-origin: top right;
+  }
+  .header-layout6 .shape3:after,
+  .header-layout6 .shape3:before {
+    height: calc(100% + 38px);
+  }
+}
+.phoneResponsive {
+  display: none !important;
+}
+.resCompanies {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  .blog_by_ceo {
+    position: relative;
+    right: 0% !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .blog_by_ceo {
+    position: relative !important;
+    right: 0% !important;
+  }
+  .TESTIMONIAL {
+    text-align: center;
+  }
+  .Logo_Title {
+    font-size: 0.8rem;
+  }
+  /* .r1 {
+    position: relative;
+    top: 13px;
+  }
+  .r5 {
+    position: relative;
+    left: 50%;
+  } */
+}
+@media (max-width: 1000px) {
+  .prestendaLogo {
+    left: 0%;
+  }
+  .LeftE2E {
+    left: -6% !important;
+  }
+  .r1 {
+    top: 8px;
+    left: -42%;
+  }
+  .r5 {
+    position: relative;
+    top: 2px;
+    left: 32%;
+  }
+  .resNav ul li a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 900px) {
+  .prestendaLogo {
+    left: 6%;
+  }
+  .LeftE2E {
+    left: -14% !important;
+  }
+  .resNav ul li a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .prestendaLogo {
+    top: -32px;
+    left: 12%;
+  }
+  .LeftE2E {
+    left: -17% !important;
+  }
+  .resNav ul li a {
+    font-size: 0.7rem;
+  }
+  .header-layout6 {
+    position: absolute;
+    max-width: 90%;
+    height: 10%;
+  }
+  .partners {
+    position: relative;
+    top: -51px;
+  }
+  .header-layout6 .shape3:after {
+    transform: rotate(43deg);
+    height: calc(100% + 54px);
+  }
+  .header-layout6 .shape3::before {
+    transform: rotate(-43deg);
+    height: calc(100% + 53px);
+  }
+  .header-layout6 {
+    --clip-total: 85px;
+    --shape-gap: 17px;
+  }
+  .r1 {
+    font-size: 0.8rem;
+  }
+  .r5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .prestendaLogo {
+    top: -32px;
+    left: 2%;
+    width: 14%;
+  }
+  .LeftE2E {
+    left: -10% !important;
+  }
+  .resNav ul li a {
+    font-size: 0.7rem;
+  }
+  .header-layout6 {
+    position: absolute;
+    max-width: 90%;
+    height: 10%;
+  }
+  .partners {
+    position: relative;
+    top: -51px;
+  }
+  .header-layout6 .shape3:after {
+    transform: rotate(43deg);
+    height: calc(100% + 54px);
+  }
+  .header-layout6 .shape3::before {
+    transform: rotate(-43deg);
+    height: calc(100% + 53px);
+  }
+  .header-layout6 {
+    --clip-total: 85px;
+    --shape-gap: 17px;
+  }
+  .r1 {
+    font-size: 0.8rem;
+    top: 2px !important;
+    left: 3%;
+  }
+  .r5 {
+    font-size: 0.8rem;
+    top: -8px;
+    left: 47%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-layout6 .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /* .header-layout6 {
+    position: relative;
+  } */
+  .header-layout6 .shape3,
+  .header-layout6 .shape2,
+  .header-layout6 .shape1 {
+    display: none;
+  }
+  .prestendaLogo {
+    top: -17px;
+    left: -15%;
+    width: 14%;
+  }
+  .LeftE2E {
+    left: 7% !important;
+  }
+  .r5 {
+    font-size: 0.8rem;
+    top: -8px;
+    left: 34%;
+  }
+  .r1 {
+    font-size: 0.8rem;
+    top: 2px !important;
+    left: -12%;
+  }
+  .breadcumb-menu-wrap .breadcumb-menu ul li a {
+    font-size: 0.7rem !important;
+  }
+  .partners {
+    position: relative;
+    top: -8px;
+  }
+  .LeftE2E {
+    top: -12px;
+    left: 4% !important;
+  }
+}
+
+@media (max-width: 555px) {
+  .header-layout6 .container {
+    padding: 0%;
+  }
+  .resNav1 {
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+    max-width: 150%;
+    height: 100px !important;
+    border: 1px solid green;
+  }
+  .phoneResponsive {
+    display: inline-block !important;
+  }
+  .partnersNav {
+    display: none;
+  }
+  .h1B {
+    text-align: center;
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .resCompanies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: -50px;
+  }
+  .prestendaLogo {
+    top: 12px;
+    left: -6%;
+    width: 14%;
+  }
+  /* .prestendaLogo {
+    top: -78px;
+    left: 14%;
+    width: 15%;
+  }
+  .LeftE2E {
+    top: -12px;
+    top: -153px !important;
+    left: 65% !important;
+  }
+  .r1 {
+    font-size: 0.8rem;
+    top: 2px !important;
+    left: -2%;
+  }
+  .r5 {
+    left: 45%;
+  } */
+  .r5 {
+    left: 57%;
+  }
+  .breadcumb-menu {
+    text-align: center;
+    /* margin-top: -160px; */
+  }
+}
